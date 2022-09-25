@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <div class="titulo">
+        <img id="logo" src="imagenes_integrador_front/codoacodo.png" alt="logo">
+        <h1 class="title">Conf Bs As</h1>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active white" aria-current="page" href="#">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Conviértete en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active green">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <section class="container-body-info">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagenes_integrador_front/hawaii.jpg" class="d-block w-100" alt="foto-1">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes_integrador_front/hawaii2.jpg" class="d-block w-100" alt="foto-2">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes_integrador_front/hawaii3.jpg" class="d-block w-100" alt="foto-3">
+        </div>
+        <div class="texto-carrusel">
+          <h5 class="card-title-museo">Conf Bs As</h5>
+          <p class="card-text-museo">Bs As llega por primera vez a Argentina. Un evento para compratir con
+            nuestra
+            comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet.
+            ven a conocer
+            a los miembros del evento, a otros estudiates de Codo a Codo y los oradores de primer nivel que
+            tenemos para
+            ti. Te esperamos!</p>
+          <button type="button" class="btn btn-primary btn-sm orador">Quiero ser orador</button>
+          <button type="button" class="btn btn-secondary btn-sm tickets">Comprar tickets</button>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagenes_integrador_front/Steve_Jobs.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span class="badge bg-secondary-y">JavaScript</span> <span class="badge bg-secondary-b">React</span>
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">Destacado informático y empresario estadounidense. Fue creador del primer ordenador
+              personal y fundador de Apple Computer, una empresa innovadora en el sector de la informática.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagenes_integrador_front/bill.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span class="badge bg-secondary-y">JavaScript</span> <span class="badge bg-secondary-b">React</span>
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">Empresario, informático y filántropo estadounidense, conocido por haber creado y
+              fundado junto con Paul Allen, la empresa Microsoft.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagenes_integrador_front/ada.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span class="badge bg-secondary">Negocios</span> <span class="badge bg-secondary-r">Startups</span>
+            <h5 class="card-title">Ada Lovelace</h5>
+            <p class="card-text">La primera programadora de la historia. Matemática y escritora inglesa,revolucionó con
+              sus conocimientos la ciencia y la tecnología. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="info">
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="imagenes_integrador_front/hawaii3.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body bs">
+            <h5 class="card-title">Bs As - Octubre</h5>
+            <p class="card-text bs-as">Es una de las 24 entidades federales que componen la República Argentina. Por la
+              extensión, población y relevancia de sus actividades económicas es considerada la más importante del país.
+              La capital es la ciudad de La Plata.</p>
+            <button class="btn btn-primary Octubre" type="submit">Conocé más</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="formulario">
+    <div class="texto-form">
+      <h5>CONVIÉRTETE EN UN</h5>
+      <h1 class="form">ORADOR</h1>
+      <h6 class="texto-orador">Anótate como orador para dar una <u>charla ignite.</u> Cuéntanos de qué quieres hablar!
+      </h6>
+
+    </div>
+    <div class="formulario-orador">
+      <form class="form" name="formulario" method="post" action="/send.php">
+        <input id="nombre" type="text" name="nombre" placeholder="Nombre" />
+        <input id="apellido" type="text" name="apellido" placeholder="Apellido" />
+      </form>
+      <form class="text">
+        <textarea name="texto" id="textarea" cols="30" rows="0" placeholder="Sobre qué quieres hablar?"></textarea>
+        <p class="charla-form">recuerda incluir un titulo para tu charla</p>
+        <input class="btn-enviar" type="submit" value="Enviar" />
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div>
+      <ul>
+        <li class="footer">
+          <a href="#" class="link-footer">Preguntas frecuentes</a>
+          <a href="#" class="link-footer">Contáctanos</a>
+          <a href="#" class="link-footer">Prensa</a>
+          <a href="#" class="link-footer">Conferencias</a>
+          <a href="#" class="link-footer">Terminos y Condiciones</a>
+          <a href="#" class="link-footer">Privacidad</a>
+          <a href="#" class="link-footer">Estudiantes</a>
+        </li>
+      </ul>
+  
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

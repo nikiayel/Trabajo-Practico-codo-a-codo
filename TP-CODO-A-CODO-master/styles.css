@@ -1,0 +1,595 @@
+ /* media query hasta 425px */
+ @media screen and (max-width: 425px) {
+
+     /* header */
+     .navbar-toggler {
+         margin-right: 20px;
+     }
+
+     ul.navbar-nav {
+         margin-left: 20px;
+     }
+
+     /* carrusel */
+     .card-text-museo {
+         font-size: 10.5px;
+         position: absolute;
+         margin-top: -13px;
+         text-align: end;
+         padding: 43px;
+         padding-right: 34px;
+     }
+
+     .card-title-museo {
+         margin-right: 35px;
+     }
+
+     .btn-primary {
+         position: absolute;
+         top: 145px;
+         left: 65px;
+     }
+
+     .btn-secondary {
+         top: 145px;
+         position: absolute;
+         left: 200px;
+     }
+
+     /* card oradores */
+     .g-4 {
+         margin-top: 10px;
+     }
+
+     /* card info */
+     .bs {
+         padding: 45px;
+         padding-top: 20px;
+     }
+
+     .mb-3 {
+         margin-top: 20px;
+     }
+
+     .g-0 {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .Octubre {
+         padding: 2px;
+         padding-left: 5px;
+         padding-right: 5px;
+         top: 431px;
+         left: 216px;
+     }
+
+     /* formulario */
+     .formulario {
+         margin-top: 25px;
+     }
+
+     .texto-orador {
+         text-align: center;
+     }
+
+     u {
+         text-decoration-style: dotted;
+     }
+     .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .formulario-orador {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     #nombre {
+         width: 125px;
+         margin-left: 3px;
+     }
+
+     #apellido {
+         width: 125px;
+         margin-left: 5px;
+     }
+
+     textarea {
+         margin-top: 15px;
+     }
+
+     .charla-form {
+         margin-top: 5px;
+     }
+
+     .btn-enviar {
+         width: -webkit-fill-available;
+         margin-top: -10px;
+         border: none;
+         border-radius: 5px;
+     }
+     .texto-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     /* footer */
+     footer {
+         margin-top: 40px;
+         max-width: 100%;
+     }
+
+     .footer {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .link-footer {
+         text-decoration: none;
+         margin-top: 10px;
+     }
+ }
+
+ /* media query hasta 768px */
+ @media screen and (min-width: 768px) {
+
+     /* header */
+     .navbar-toggler {
+         margin-right: 30px;
+     }
+
+     ul.navbar-nav {
+         margin-left: 20px;
+     }
+
+     /* carrusel */
+     .card-text-museo {
+         font-size: 16.5px;
+         position: absolute;
+         margin-top: 30px;
+         text-align: end;
+         padding: 43px;
+         padding-right: 34px;
+     }
+
+     .card-title-museo {
+         margin-right: 35px;
+         margin-top: 30px;
+     }
+
+     .btn-primary {
+         position: absolute;
+         top: 200px;
+         left: 370px;
+     }
+
+     .btn-secondary {
+         top: 200px;
+         position: absolute;
+         left: 520px;
+     }
+
+     /* card oradores */
+     .g-4 {
+         margin-top: 10px;
+     }
+
+     /* card info */
+     .bs {
+         padding: 20px;
+         height: 302px;
+     }
+
+     .mb-3 {
+         margin-top: 20px;
+     }
+
+     .g-0 {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+         align-items: center;
+         width: 50%;
+     }
+
+     .img-fluid {
+         height: 57vh;
+         object-fit: cover;
+     }
+
+     .col-md-4 {
+         width: 101vh;
+     }
+
+     .col-md-8 {
+         width: 100%;
+
+     }
+
+     .card-title {
+         font-size: 2em;
+     }
+
+     .bs-as {
+         font-size: larger;
+     }
+
+
+     .Octubre {
+
+         top: 255px;
+         left: 640px;
+     }
+
+     .info {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     /* formulario */
+     .texto-orador {
+         text-align: center;
+     }
+
+     u {
+         text-decoration-style: dotted;
+     }
+
+     .formulario {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-top: 20px;
+     }
+
+     #nombre {
+         width: 125px;
+         margin-left: 3px;
+     }
+
+     #apellido {
+         width: 125px;
+         margin-left: 5px;
+     }
+
+     textarea {
+         margin-top: 15px;
+     }
+
+     .charla-form {
+         margin-top: 5px;
+     }
+
+     .btn-enviar {
+         width: -webkit-fill-available;
+         margin-top: -10px;
+         border: none;
+         border-radius: 5px;
+     }
+     .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     /* footer */
+     footer {
+         margin-top: 50px;
+         max-width: 100%;
+     }
+
+     .footer {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .link-footer {
+         text-decoration: none;
+         margin-top: 10px;
+     }
+ }
+
+ @media screen and (min-width:920px) {
+
+     /* header */
+     .navbar-toggler {
+         margin-right: 20px;
+     }
+
+     ul.navbar-nav {
+         margin-left: 20px;
+     }
+
+     /* carrusel */
+     .card-text-museo {
+         font-size: 20.5px;
+         position: absolute;
+         margin-top: 75px;
+         text-align: end;
+         padding: 43px;
+         padding-right: 90px;
+         padding-left: 325px;
+     }
+
+     .card-title-museo {
+         margin-right: 105px;
+         font-size: xxx-large;
+     }
+
+     .btn-primary {
+         position: absolute;
+         top: 300px;
+         left: 590px;
+         padding: 9px;
+         font-size: inherit;
+     }
+
+     .btn-secondary {
+         top: 300px;
+         left: 780px;
+         padding: 9px;
+         position: absolute;
+         font-size: large;
+     }
+
+     /* card oradores */
+     .g-4 {
+         margin-top: 10px;
+     }
+
+     /* card info */
+     .bs {
+         padding: 20px;
+         height: 465px;
+         width: 108%;
+     }
+
+     .mb-3 {
+         margin-top: 20px;
+     }
+
+     .g-0 {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+         align-items: center;
+         width: 50%;
+     }
+
+     .img-fluid {
+         height: 66vh;
+         object-fit: cover;
+     }
+
+     .col-md-4 {
+         width: 101vh;
+     }
+
+     .col-md-8 {
+         width: 100%;
+
+     }
+
+     .card-title {
+         font-size: 2em;
+     }
+
+     .bs-as {
+         font-size: larger;
+     }
+
+
+     .Octubre {
+
+         top: 255px;
+         left: 900px;
+     }
+
+     .info {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     /* formulario */
+     .formulario {
+         margin-top: 25px;
+     }
+
+     .texto-orador {
+         text-align: center;
+     }
+
+     u {
+         text-decoration-style: dotted;
+     }
+
+     .formulario-orador {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     #nombre {
+         width: 175px;
+         margin-left: 3px;
+
+     }
+
+     #apellido {
+         width: 175px;
+         margin-left: 5px;
+
+     }
+
+     textarea {
+         margin-top: 15px;
+         width: 365px;
+         height: 100px;
+     }
+
+     .charla-form {
+         margin-top: 5px;
+     }
+
+     .btn-enviar {
+         width: -webkit-fill-available;
+         margin-top: -10px;
+         border: none;
+         border-radius: 5px;
+     }
+     .texto-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     /* footer */
+     footer {
+         margin-top: 40px;
+         max-width: 100%;
+         min-height: 80px;
+     }
+
+     .footer {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-around;
+     }
+
+     .link-footer {
+         text-decoration: none;
+         margin-top: 10px;
+     }
+
+ }
+
+ /*header*/
+ #logo {
+     width: 100%;
+     max-width: 100px;
+ }
+
+ .nav-link {
+     color: #5f666e
+ }
+
+ .white {
+     color: white !important;
+ }
+
+ .green {
+     color: #2e9644 !important;
+ }
+
+ .title {
+     color: white;
+ }
+
+ .container-fluid {
+     padding: 0px;
+ }
+
+ .titulo {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+
+
+ /*Carrusel*/
+ .texto-carrusel {
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     background: linear-gradient(45deg, black, #0000005e);
+     position: absolute;
+     inset: 0;
+     transform: translateY(0px);
+ }
+
+ .card-title-museo {
+     color: white;
+ }
+
+ .botones {
+     position: absolute;
+     top: 145px;
+     left: 120px;
+ }
+
+ .card-text-museo {
+     color: white;
+ }
+
+ .btn-secondary {
+     background-color: #2e9644;
+     border-color: white;
+ }
+
+ .btn-primary {
+     background-color: #f0f8ff00;
+     border-color: white;
+ }
+
+ /* cards oradores */
+ .bg-secondary-y {
+     background-color: yellow;
+     color: black;
+ }
+
+ .bg-secondary-b {
+     background-color: #17a2b7;
+ }
+
+ .bg-secondary-r {
+     background-color: #dc3546;
+ }
+
+ .btn-primary {
+     background-color: #f5f5f500;
+     border-color: white;
+ }
+
+ /* card bs as octubre */
+ .bs {
+     background-color: #353a40;
+     color: white;
+ }
+
+
+ /*formulario*/
+ .form {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+
+ input {
+     margin-top: 5px;
+ }
+
+ .btn-enviar {
+     background-color: #96c93e;
+ }
+
+ footer {
+     background-color: #1e5170;
+ }
+
+ .link-footer {
+     color: white;
+ }
